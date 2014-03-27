@@ -2,20 +2,3 @@
 source /home/gempak/NAWIPS/Gemenviron
 find $MODEL -type f | grep -v scour| cut -d"/" -f7 | sed 's/2014[0-9]\{6\}/????????/' | sed 's/2014[0-9]\{4\}_/????????_/g' | sed 's/f[0-9]\{3\}/f???/' | sed 's/_ge[c|p][0-9]\{2\}/_ge???/' |sed 's/?\+/\*/' | sort | uniq
 exit 0
-
-#gdinfo << EOF
-#gdfile  = $gdfile
-#GDATTIM = all
-#GFUNC   = all
-#GLEVEL  = all
-#GVCORD  = all
-#r
-# 
-#e
-#EOF
-#gpend
-
-end
-
-
-exit 0
