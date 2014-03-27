@@ -1,6 +1,35 @@
 #!/bin/bash -f
+export DISPLAY=:0.0
 . /home/gempak/NAWIPS/Gemenviron.profile
-rm -rf model_data.dat
+rm -rf model_data.html
+TopLevelDir=/machine/gempak/wrf/rtmodel
+export NCDESK=$TopLevelDir/tables/
+
+usage(){
+cat << EOF
+usage: $0 options
+
+OPTIONS:
+   -h      show this message
+   -g      filename prefix for gif image (default is grid_name.gif)
+EOF
+}
+SKIPIM=
+GIFPFX=
+while getopts "h:g" OPTION
+do 
+   case $OPTION in
+	h) 
+	  usage
+	  exit 1
+	  ;;
+	g)
+	  GIFPFX=$OPTARG
+	  SKIPIM=false
+	  ;;
+   esac
+done
+
 
 # list of every $MODEL type
 dump=$(./gdinv-files)
@@ -20,17 +49,75 @@ GLEVEL  = 0
 GVCORD  = none
 OUTPUT  = f/data.dat
 r
- 
+
 e
 EOF
 gpend
-
 # format / dump to file
-cat data.dat | grep -v ANALYSIS |  grep -v '^[[:space:]]*$' >> model_data.dat
-echo "" >> model_data.dat
-
+echo '<pre>' >> model_data.html
+cat data.dat | grep -v ANALYSIS |  grep -v '^[[:space:]]*$' >> model_data.html
+echo '</pre>' >> model_data.html
+echo "" >> model_data.html
 rm -rf data.dat
 
+
+# create domain image if -g specified
+if [[ ! -z $SKIPIM ]]
+then
+
+# image string
+imgname=$(basename $var | sed 's/\.gem//g'| sed 's/\*//'| sed 's/_//'| sed 's/f???//'| sed 's/ge???/gep/')
+if [[ ! -z $GIFPFX ]] 
+then
+  gifimg=$GIFPFX_$imgname.gif
+else
+  gifimg=gd_$imgname.gif
+fi
+
+# run gdplot2
+gdplot2_gf << EOF_2
+GDFILE = $gdfile
+GDATTIM = last
+GAREA   = dset
+PROJ    = def
+DEVICE  = gf|${gifimg}|600;600
+GLEVEL  = 2       
+GVCORD  = hght    
+GDPFUN  = tmpf    
+TYPE    = cf     
+CONTUR  = 3/3     
+CINT    = 1/32/32 
+LINE    = 1/1/3  
+FINT    = -25;-20;-15;-10;-5;0;5;10;15;20;25;30;35;40;45;50;55;60;65;70;75;80;85;90;95;100;105;110;115
+FLINE   = 30-7
+FLINE   = 2-25
+WIND    =        
+CLRBAR  = 31/h/lc/.5;0/1;.018/|.8
+TEXT    = 1/22/2/hw
+PANEL   = 0
+SCALE   = 0
+SKIP    = 0
+HILO    =
+HLSYM   =
+REFVEC  =
+CLEAR   = yes
+MSCALE  =
+BORDER  = 1/1/3
+MAP     = 1
+r
+
+e
+EOF_2
+
+#scp ${gifimg} conan:/content/staff/mjames/gdinv/
+rm -rf ${gifimg}
+echo '<img src='${gifimg}'><br>' >> model_data.html
+fi
+
 done
+#scp model_data.html conan:/content/staff/mjames/gdinv/
+
+
+
 rm -rf *.nts
 exit 0
