@@ -32,4 +32,5 @@ echo "" >> model_data.dat
 rm -rf data.dat
 
 done
+rm -rf *.nts
 exit 0

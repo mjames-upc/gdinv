@@ -1,0 +1,844 @@
+ GRID FILE: /data/ldm/gempak/model/nwsmdl/201403261000_000_236.gem                                              
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                 0.0   -95.0     0.0
+     GRID SIZE:          151 113
+     LL CORNER:              16.28   -126.14
+     UR CORNER:              49.69    -71.32
+ Number of grids in file:     6
+ Maximum number of grids in file:    200
+
+ GRID FILE: /data/ldm/gempak/model/nwsmdl/201403262130_000_236.gem                                              
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                 0.0   -95.0     0.0
+     GRID SIZE:          151 113
+     LL CORNER:              16.28   -126.14
+     UR CORNER:              49.69    -71.32
+ Number of grids in file:     6
+ Maximum number of grids in file:    200
+
+ GRID FILE: /data/ldm/gempak/model/awc/20140326_cip.gem                                                         
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          301 225
+     LL CORNER:              16.28   -126.14
+     UR CORNER:              55.48    -57.38
+ Number of grids in file:  5000
+ Maximum number of grids in file:   5000
+
+ GRID FILE: /data/ldm/gempak/model/cmc/2014032612_cmcreg.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -111.0     0.0
+     GRID SIZE:          493 399
+     LL CORNER:              32.55   -134.62
+     UR CORNER:              46.28    -21.00
+ Number of grids in file:  1000
+ Maximum number of grids in file:   1000
+
+ GRID FILE: /data/ldm/gempak/model/coamps/2014032600_coamps_centam                                              
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          301 161
+     LL CORNER:               0.00   -120.00
+     UR CORNER:              32.00    -60.00
+ Number of grids in file:   404
+ Maximum number of grids in file:   1500
+
+ GRID FILE: /data/ldm/gempak/model/coamps/2014032600_coamps_epac                                                
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          231 156
+     LL CORNER:              29.00   -160.00
+     UR CORNER:              60.00   -114.00
+ Number of grids in file:   377
+ Maximum number of grids in file:   1500
+
+ GRID FILE: /data/ldm/gempak/model/coamps/2014032600_coamps_europe                                              
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          301 186
+     LL CORNER:              29.00    -15.00
+     UR CORNER:              66.00     45.00
+ Number of grids in file:   698
+ Maximum number of grids in file:   1500
+
+ GRID FILE: /data/ldm/gempak/model/coamps/2014032612_coamps_watl                                                
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          191 176
+     LL CORNER:              20.00    -93.00
+     UR CORNER:              55.00    -55.00
+ Number of grids in file:   493
+ Maximum number of grids in file:   1500
+
+ GRID FILE: /data/ldm/gempak/model/ecmwf/2014032712_ecmf1.gem                                                   
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          145  73
+     LL CORNER:             -90.00      0.00
+     UR CORNER:              90.00      0.00
+ Number of grids in file:   106
+ Maximum number of grids in file:   1500
+
+ GRID FILE: /data/ldm/gempak/model/ecmwf/2014032712_ecmf2.gem                                                   
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          145  29
+     LL CORNER:             -35.00      0.00
+     UR CORNER:              35.00      0.00
+ Number of grids in file:    20
+ Maximum number of grids in file:   1500
+
+ GRID FILE: /data/ldm/gempak/model/ecmwf/2014032612_ecmwf255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:           81  60
+     LL CORNER:               1.50    120.00
+     UR CORNER:              90.00   -120.00
+ Number of grids in file:     2
+ Maximum number of grids in file:    100
+
+ GRID FILE: /data/ldm/gempak/model/ukmet/2014032612_egrr255.gem                                                 
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:           49  37
+     LL CORNER:             -90.00    310.00
+     UR CORNER:               0.00     70.00
+ Number of grids in file:    22
+ Maximum number of grids in file:   1000
+  NUM       TIME1              TIME2           LEVL1 LEVL2  VCORD PARM
+   22     140326/1200F000                          0         NONE TMPK        
+
+ GRID FILE: /data/ldm/gempak/model/ens/2014032612_ensthin.gem                                                   
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          289 145
+     LL CORNER:             -90.00    -30.00
+     UR CORNER:              90.00    -30.00
+ Number of grids in file:  8652
+ Maximum number of grids in file:  20000
+
+ GRID FILE: /data/ldm/gempak/model/wrf/2014032612f000_co.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                40.0  -105.2    40.0
+     GRID SIZE:          201 155
+     LL CORNER:              36.97   -110.14
+     UR CORNER:              42.92   -100.04
+ Number of grids in file:   779
+ Maximum number of grids in file:   5000
+  NUM       TIME1              TIME2           LEVL1 LEVL2  VCORD PARM
+  692     140326/1200F000                          0         NONE TMPK        
+
+ GRID FILE: /data/ldm/gempak/model/dgex/2014032606f180_dgex.gem                                                 
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                40.0   -98.0    40.0
+     GRID SIZE:          491 303
+     LL CORNER:              19.94   -125.09
+     UR CORNER:              49.88    -56.29
+ Number of grids in file:    56
+ Maximum number of grids in file:    200
+
+ GRID FILE: /data/ldm/gempak/model/gfs0.5deg/2014032712f015_gfs.gem                                             
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     ANGLES:                 0.0     0.0     0.0
+     GRID SIZE:          720 361
+     LL CORNER:             -90.00      0.00
+     UR CORNER:              90.00     -0.50
+ Number of grids in file:   354
+ Maximum number of grids in file:  29000
+  NUM       TIME1              TIME2           LEVL1 LEVL2  VCORD PARM
+  268     140327/1200F015                          0         NONE TMPK        
+
+ GRID FILE: /data/ldm/gempak/model/nam12km/2014032718f048_nam218.gem                                            
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          614 428
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.33    -49.42
+ Number of grids in file:   369
+ Maximum number of grids in file:   1000
+  NUM       TIME1              TIME2           LEVL1 LEVL2  VCORD PARM
+  297     140327/1800F048                          0         NONE TMPK        
+
+ GRID FILE: /data/ldm/gempak/model/nam-ak/2014032600f048_nam242.gem                                             
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -135.0     0.0
+     GRID SIZE:          553 425
+     LL CORNER:              30.00   -173.00
+     UR CORNER:              70.11    -62.85
+ Number of grids in file:   234
+ Maximum number of grids in file:   1000
+
+ GRID FILE: /data/ldm/gempak/model/navgem/2014032606f123_navgem.gem                                             
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          720 361
+     LL CORNER:             -90.00      0.00
+     UR CORNER:              90.00     -0.50
+ Number of grids in file:    14
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/nhc/2014032712_forecast.gem                                                  
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     ANGLES:                 0.0     0.0     0.0
+     GRID SIZE:          720 181
+     LL CORNER:               0.00      0.00
+     UR CORNER:              90.00     -0.50
+ Number of grids in file:   123
+ Maximum number of grids in file:   5000
+
+ GRID FILE: /data/ldm/gempak/model/wrf/2014032706f023_primary.gem                                               
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                40.0  -105.5    40.0
+     GRID SIZE:          201 155
+     LL CORNER:              36.94   -110.39
+     UR CORNER:              42.88   -100.30
+ Number of grids in file:   799
+ Maximum number of grids in file:   5000
+  NUM       TIME1              TIME2           LEVL1 LEVL2  VCORD PARM
+  696     140327/0600F023                          0         NONE TMPK        
+
+
+ GRID FILE: /data/ldm/gempak/model/gfs/2014032518_gfs002.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     ANGLES:                 0.0     0.0     0.0
+     GRID SIZE:          144  73
+     LL CORNER:             -90.00      0.00
+     UR CORNER:              90.00     -2.50
+ Number of grids in file:  5664
+ Maximum number of grids in file:   9000
+  NUM       TIME1              TIME2           LEVL1 LEVL2  VCORD PARM
+  268     140325/1800F204                          0         NONE TMPK        
+
+ GRID FILE: /data/ldm/gempak/model/gfs/2014032518_gfs160.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -150.0     0.0
+     GRID SIZE:          180 156
+     LL CORNER:              19.13    174.16
+     UR CORNER:              56.22    -51.66
+ Number of grids in file:  8992
+ Maximum number of grids in file:  20000
+
+ GRID FILE: /data/ldm/gempak/model/gfs/2014032600_gfs161.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     ANGLES:                 0.0     0.0     0.0
+     GRID SIZE:          137 102
+     LL CORNER:              -0.25    -88.25
+     UR CORNER:              50.75    -19.75
+ Number of grids in file:  8992
+ Maximum number of grids in file:  20000
+
+ GRID FILE: /data/ldm/gempak/model/gfs/2014032606_gfs211.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:           93  65
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.38
+ Number of grids in file:  6969
+ Maximum number of grids in file:  10000
+
+ GRID FILE: /data/ldm/gempak/model/gfs/2014032518_gfs212.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          185 129
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.39
+ Number of grids in file:  8992
+ Maximum number of grids in file:  20000
+
+ GRID FILE: /data/ldm/gempak/model/gfs/2014032606_gfs213.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          129  85
+     LL CORNER:               7.84   -141.03
+     UR CORNER:              35.62    -18.58
+ Number of grids in file:  1737
+ Maximum number of grids in file:  10000
+
+ GRID FILE: /data/ldm/gempak/model/gfs/2014032518_gfs254.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          MER                 
+     ANGLES:                 0.0     0.0     0.0
+     GRID SIZE:          369 300
+     LL CORNER:             -35.00    110.00
+     UR CORNER:              60.79   -109.13
+ Number of grids in file:  8992
+ Maximum number of grids in file:  20000
+
+ GRID FILE: /data/ldm/gempak/model/gfs/2014032518_gfs703.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     ANGLES:                 0.0     0.0     0.0
+     GRID SIZE:          360 181
+     LL CORNER:             -90.00      0.00
+     UR CORNER:              90.00     -1.00
+ Number of grids in file: 10000
+ Maximum number of grids in file:  10000
+  NUM       TIME1              TIME2           LEVL1 LEVL2  VCORD PARM
+  275     140325/1800F000                          0         NONE TMPK        
+
+ GRID FILE: /data/ldm/gempak/model/mos/2014032612_gfsmos.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:         1073 689
+     LL CORNER:              20.19   -121.55
+     UR CORNER:              50.11    -60.89
+ Number of grids in file:   511
+ Maximum number of grids in file:   5000
+
+ GRID FILE: /data/ldm/gempak/model/ice/2014032600_ice219.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0   -80.0     0.0
+     GRID SIZE:          385 465
+     LL CORNER:              25.03   -119.56
+     UR CORNER:              23.95     60.34
+ Number of grids in file:     1
+ Maximum number of grids in file:    200
+
+ GRID FILE: /data/ldm/gempak/model/ice/2014032600_ice220.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:               -90.0  -260.0     0.0
+     GRID SIZE:          345 355
+     LL CORNER:             -36.87    139.81
+     UR CORNER:              24.47    142.77
+ Number of grids in file:     1
+ Maximum number of grids in file:    200
+
+ GRID FILE: /data/ldm/gempak/model/ice/2014032600_ice235.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          720 360
+     LL CORNER:             -89.75      0.25
+     UR CORNER:              89.75     -0.25
+ Number of grids in file:     1
+ Maximum number of grids in file:    200
+
+ GRID FILE: /data/ldm/gempak/model/nam/2014032706_icwf212.gem                                                   
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          185 129
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.39
+ Number of grids in file:   221
+ Maximum number of grids in file:   1000
+
+ GRID FILE: /data/ldm/gempak/model/nohrsc/2014032712_kmsr255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          867 419
+     LL CORNER:              24.98    235.30
+     UR CORNER:              52.84    293.03
+ Number of grids in file:     3
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/mos/2014032704_lamp.gem                                                      
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:         1073 689
+     LL CORNER:              20.19   -121.55
+     UR CORNER:              50.11    -60.89
+ Number of grids in file:    14
+ Maximum number of grids in file:   5000
+
+ GRID FILE: /data/ldm/gempak/model/nam/2014032700_nam104.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          147 110
+     LL CORNER:              -0.27   -139.48
+     UR CORNER:              32.75    -14.60
+ Number of grids in file: 16355
+ Maximum number of grids in file:  18000
+  NUM       TIME1              TIME2           LEVL1 LEVL2  VCORD PARM
+  501     140327/0000F000                          0         NONE TMPK        
+
+ GRID FILE: /data/ldm/gempak/model/nam-ak/2014032612_nam207.gem                                                 
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -150.0     0.0
+     GRID SIZE:           49  35
+     LL CORNER:              42.08   -175.64
+     UR CORNER:              63.98    -93.69
+ Number of grids in file:  1715
+ Maximum number of grids in file:   5000
+
+
+ GRID FILE: /data/ldm/gempak/model/nam/2014032712_nam212.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          185 129
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.39
+ Number of grids in file: 18975
+ Maximum number of grids in file:  24000
+
+ GRID FILE: /data/ldm/gempak/model/nam/2014032700_nam215.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          369 257
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.38
+ Number of grids in file:  1113
+ Maximum number of grids in file:   5000
+
+ GRID FILE: /data/ldm/gempak/model/nam-ak/2014032700_nam216.gem                                                 
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -135.0     0.0
+     GRID SIZE:          139 107
+     LL CORNER:              30.00   -173.00
+     UR CORNER:              70.11    -62.85
+ Number of grids in file: 18000
+ Maximum number of grids in file:  18000
+  NUM       TIME1              TIME2           LEVL1 LEVL2  VCORD PARM
+  660     140327/0000F000                          0         NONE TMPK        
+
+ GRID FILE: /data/ldm/gempak/model/nam-ak/2014032700_nam217.gem                                                 
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -135.0     0.0
+     GRID SIZE:          277 213
+     LL CORNER:              30.00   -173.00
+     UR CORNER:              70.11    -62.85
+ Number of grids in file:   522
+ Maximum number of grids in file:   5000
+
+ GRID FILE: /data/ldm/gempak/model/nam/2014032718_nam237.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                50.0  -107.0    50.0
+     GRID SIZE:           54  47
+     LL CORNER:              16.20    -74.28
+     UR CORNER:              18.95    -55.80
+ Number of grids in file:   753
+ Maximum number of grids in file:   5000
+
+ GRID FILE: /data/ldm/gempak/model/awc/20140325_ncwd.gem                                                        
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:         1830 918
+     LL CORNER:              20.02    230.02
+     UR CORNER:              53.00    300.00
+ Number of grids in file:   287
+ Maximum number of grids in file:   5000
+
+ GRID FILE: /data/ldm/gempak/model/ndfd/2014032612_ndfd.gem                                                     
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:         1073 689
+     LL CORNER:              20.19   -121.55
+     UR CORNER:              50.11    -60.89
+ Number of grids in file:    64
+ Maximum number of grids in file:   5000
+
+ GRID FILE: /data/ldm/gempak/model/nww/2014032712_nww.gem                                                       
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:           73  73
+     LL CORNER:             -90.00      0.00
+     UR CORNER:              90.00      0.00
+ Number of grids in file:    20
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/nww/2014032500_ocn.gem                                                       
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          720 360
+     LL CORNER:             -89.75      0.25
+     UR CORNER:              89.75     -0.25
+ Number of grids in file:     1
+ Maximum number of grids in file:    500
+  NUM       TIME1              TIME2           LEVL1 LEVL2  VCORD PARM
+    1     140325/0000                              0         NONE TMPK        
+
+ GRID FILE: /data/ldm/gempak/model/qpf/2014032706_qpe218.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          737 513
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.38
+ Number of grids in file:     9
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/radar/20140327_radar.gem                                                     
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0   255.0     0.0
+     GRID SIZE:          460 360
+     LL CORNER:              23.10   -119.04
+     UR CORNER:              45.32    -58.22
+ Number of grids in file:    42
+ Maximum number of grids in file:    100
+
+ GRID FILE: /data/ldm/gempak/model/rtma/2014032614_rtma.gem                                                     
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:         1073 689
+     LL CORNER:              20.19   -121.55
+     UR CORNER:              50.11    -60.89
+ Number of grids in file:    14
+ Maximum number of grids in file:    200
+
+
+ GRID FILE: /data/ldm/gempak/model/sref/sref_2014032715_ak                                                      
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -135.0     0.0
+     GRID SIZE:          139 107
+     LL CORNER:              30.00   -173.00
+     UR CORNER:              70.11    -62.85
+ Number of grids in file:  3138
+ Maximum number of grids in file:  10000
+
+ GRID FILE: /data/ldm/gempak/model/sref/sref_2014032521_pa                                                      
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     ANGLES:                 0.0     0.0     0.0
+     GRID SIZE:          126 101
+     LL CORNER:              10.00   -170.00
+     UR CORNER:              50.00   -120.00
+ Number of grids in file:  2804
+ Maximum number of grids in file:  10000
+
+ GRID FILE: /data/ldm/gempak/model/sref/sref_2014032709_us                                                      
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          185 129
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.39
+ Number of grids in file:  2908
+ Maximum number of grids in file:  10000
+
+ GRID FILE: /data/ldm/gempak/model/sst/2014032500_sst.gem                                                       
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     ANGLES:                 0.0     0.0     0.0
+     GRID SIZE:         43202160
+     LL CORNER:             -89.96      0.04
+     UR CORNER:              89.96     -0.04
+ Number of grids in file:     1
+ Maximum number of grids in file:   5000
+  NUM       TIME1              TIME2           LEVL1 LEVL2  VCORD PARM
+    1     140325/0000F000                          0         NONE TMPK        
+
+ GRID FILE: /data/ldm/gempak/model/ffg/2014032518_subc150255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          335 159
+     LL CORNER:              33.60   -106.46
+     UR CORNER:              38.00    -90.74
+ Number of grids in file:     3
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/ffg/2014032612_subc152255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          260 360
+     LL CORNER:              30.03   -114.43
+     UR CORNER:              43.90   -103.76
+ Number of grids in file:     3
+ Maximum number of grids in file:    500
+
+
+ GRID FILE: /data/ldm/gempak/model/ffg/2014032612_subc153255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          235 335
+     LL CORNER:              30.91   -120.87
+     UR CORNER:              44.83   -113.47
+ Number of grids in file:     3
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/qpf/2014032718_subc154218.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          737 513
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.38
+ Number of grids in file:     4
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/ffg/2014032618_subc154255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          419 419
+     LL CORNER:              28.69    -98.79
+     UR CORNER:              38.61    -76.24
+ Number of grids in file:     3
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/qpf/2014032618_subc155218.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          737 513
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.38
+ Number of grids in file:    12
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/ffg/2014032700_subc155255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          200 200
+     LL CORNER:              38.03    -83.35
+     UR CORNER:              41.09    -70.19
+ Number of grids in file:     4
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/qpf/2014032612_subc156218.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          737 513
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.38
+ Number of grids in file:     4
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/ffg/2014032712_subc156255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          485 325
+     LL CORNER:              37.27   -112.71
+     UR CORNER:              48.07    -85.58
+ Number of grids in file:     3
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/qpf/2014032612_subc157218.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          737 513
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.38
+ Number of grids in file:     4
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/ffg/2014032700_subc157255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          450 350
+     LL CORNER:              37.87   -105.51
+     UR CORNER:              47.30    -78.33
+ Number of grids in file:     3
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/qpf/2014032600_subc158218.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          737 513
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.38
+ Number of grids in file:     8
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/ffg/2014032712_subc158255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          180 235
+     LL CORNER:              42.06    -80.00
+     UR CORNER:              46.03    -64.99
+ Number of grids in file:     3
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/qpf/2014032712_subc159218.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          737 513
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.38
+ Number of grids in file:    40
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/ffg/2014032612_subc159255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          400 378
+     LL CORNER:              37.95   -124.21
+     UR CORNER:              55.55   -105.15
+ Number of grids in file:     3
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/qpf/2014032718_subc160218.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          737 513
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.38
+ Number of grids in file:     8
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/ffg/2014032700_subc160255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          250 260
+     LL CORNER:              36.19    -91.35
+     UR CORNER:              41.83    -75.59
+ Number of grids in file:     5
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/qpf/2014032612_subc161218.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          737 513
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.38
+ Number of grids in file:     8
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/ffg/2014032606_subc161255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          335 412
+     LL CORNER:              27.03    -91.42
+     UR CORNER:              35.74    -72.19
+ Number of grids in file:     3
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/qpf/2014032712_subc162218.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          737 513
+     LL CORNER:              12.19   -133.46
+     UR CORNER:              57.29    -49.38
+ Number of grids in file:    12
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/ffg/2014032706_subc162255.gem                                                
+ GRID NAVIGATION: 
+     PROJECTION:          STR                 
+     ANGLES:                90.0  -105.0     0.0
+     GRID SIZE:          425 390
+     LL CORNER:              24.85   -108.99
+     UR CORNER:              37.09    -90.41
+ Number of grids in file:     3
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/gfs/2014032618_thin.gem                                                      
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          289 145
+     LL CORNER:             -90.00    -30.00
+     UR CORNER:              90.00    -30.00
+ Number of grids in file:   907
+ Maximum number of grids in file:   2000
+
+ GRID FILE: /data/ldm/gempak/model/awc/20140326_turb.gem                                                        
+ GRID NAVIGATION: 
+     PROJECTION:          LCC                 
+     ANGLES:                25.0   -95.0    25.0
+     GRID SIZE:          451 337
+     LL CORNER:              16.28   -126.14
+     UR CORNER:              55.48    -57.37
+ Number of grids in file:  5000
+ Maximum number of grids in file:   5000
+
+ GRID FILE: /data/ldm/gempak/model/ukmet/2014032612_ukm019255.gem                                               
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:           49  37
+     LL CORNER:             -90.00    310.00
+     UR CORNER:               0.00     70.00
+ Number of grids in file:     7
+ Maximum number of grids in file:   1000
+
+ GRID FILE: /data/ldm/gempak/model/ukmet/2014032706_ukmet.gem                                                   
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          289 145
+     LL CORNER:             -90.00    -30.00
+     UR CORNER:              90.00    -30.00
+ Number of grids in file:   290
+ Maximum number of grids in file:   1500
+
+ GRID FILE: /data/ldm/gempak/model/ukmet/2014032700_ukmwav255.gem                                               
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:           49  37
+     LL CORNER:             -90.00    310.00
+     UR CORNER:               0.00     70.00
+ Number of grids in file:    84
+ Maximum number of grids in file:   1000
+
+ GRID FILE: /data/ldm/gempak/model/nww/2014032600_wave233.gem                                                   
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          288 157
+     LL CORNER:             -78.00      0.00
+     UR CORNER:              78.00    358.75
+ Number of grids in file:   198
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/nww/2014032712_wave238.gem                                                   
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          275 203
+     LL CORNER:              -0.25    261.75
+     UR CORNER:              50.25    330.25
+ Number of grids in file:   198
+ Maximum number of grids in file:    500
+
+
+ GRID FILE: /data/ldm/gempak/model/nww/2014032518_wave244.gem                                                   
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          275 203
+     LL CORNER:              -0.25    261.75
+     UR CORNER:              50.25    330.25
+ Number of grids in file:   117
+ Maximum number of grids in file:    500
+
+ GRID FILE: /data/ldm/gempak/model/navgem/2014032712_ww3.gem                                                    
+ GRID NAVIGATION: 
+     PROJECTION:          CED                 
+     GRID SIZE:          360 181
+     LL CORNER:             -90.00      0.00
+     UR CORNER:              90.00     -1.00
+ Number of grids in file:   307
+ Maximum number of grids in file:   1500
+
