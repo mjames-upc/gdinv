@@ -3,7 +3,7 @@
 rm -rf model_data.dat
 
 # list of every $MODEL type
-dump=$(./geminv-files)
+dump=$(./gdinv-files)
 
 for var in $dump
 do
